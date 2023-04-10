@@ -24,9 +24,11 @@
         "php": ">=7.1.0",
         "topthink/think-queue": "2.0.4"
     },
-    "config": {
-        "allow-plugins": {
-            "topthink/think-installer": true
+    "extra": {
+        "think": {
+            "config": {
+                "queue": "src/config/queue.php"
+            }
         }
     }
 }
