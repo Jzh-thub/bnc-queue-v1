@@ -1,0 +1,32 @@
+{
+    "name": "blue-nest-cloud/bnc-queue-v1",
+    "description": "Chuckle",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "任我行",
+            "email": "313970140@qq.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "bnc\\queueV1\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "bnc\\tests\\": "tests/",
+            "bnc\\queueV1\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.1.0",
+        "topthink/think-queue": "2.0.4"
+    },
+    "config": {
+        "allow-plugins": {
+            "topthink/think-installer": true
+        }
+    }
+}
