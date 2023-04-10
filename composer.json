@@ -25,10 +25,8 @@
         "topthink/think-queue": "2.0.4"
     },
     "extra": {
-        "think": {
-            "config": {
-                "queue": "src/config/queue.php"
-            }
+        "think-config": {
+            "queue1": "src/config/queue.php"
         }
     }
 }
